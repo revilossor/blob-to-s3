@@ -2,9 +2,9 @@
   "name": "blob-to-s3-stream",
   "version": "1.0.0",
   "description": "sspike",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "t"
+    "start": "node src/main"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,8 @@
   "author": "oliver.ross@hotmail.com",
   "license": "ISC",
   "dependencies": {
-    "@azure/storage-blob": "^12.0.2"
+    "@azure/storage-blob": "^12.0.2",
+    "aws-sdk": "^2.607.0",
+    "dotenv": "^8.2.0"
   }
 }
